@@ -52,9 +52,6 @@ public:
             return result;
         }
     }
-    int front(){
-        return head->data;
-    }
 };
 
 int main(){
