@@ -66,7 +66,8 @@ public:
     void plus(){
         if(p==trailer){
         }
-        p=p->next;
+        else
+            p=p->next;
     }
 
     void minus(){
